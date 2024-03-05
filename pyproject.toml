@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "jupyter_notebook_local"
+version = "0.1.0"
+description = ""
+authors = ["Jennifer Wilcox <jennifer@nitori.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+pandas = "^2.2.1"
+scipy = "^1.12.0"
+matplotlib = "^3.8.3"
+ipywidgets = "^8.1.2"
+black = {extras = ["jupyter"], version = "^24.2.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
